@@ -17,6 +17,7 @@ steps:
     script: |
       echo $JAVA_HOM
       java -version
+      mvn -v
 
 - task: Maven@3
   inputs:
